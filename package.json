@@ -1,27 +1,29 @@
 {
-  "name": "passport-discord",
-  "version": "0.1.4",
-  "description": "Passport strategy for authentication with Discord (discordapp.com)",
-  "main": "lib/index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nicholastay/passport-discord.git"
+  "author": {
+    "name": "Nicholas Tay & FAXES"
   },
+  "bundleDependencies": false,
+  "dependencies": {
+    "passport-oauth2": "^1.5.0"
+  },
+  "deprecated": false,
+  "description": "Passport strategy for authentication with Discord (discord.com)",
+  "homepage": "https://github.com/FAXES/passport-discord-faxes#readme",
   "keywords": [
     "passport",
     "discord",
     "auth",
     "authentication",
     "authn",
-    "identity"
+    "identity",
+    "passport-discord"
   ],
-  "author": "Nicholas Tay <nexerq@gmail.com> (http://nicholastay.github.io)",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/nicholastay/passport-discord/issues"
+  "main": "lib/index.js",
+  "name": "passport-discord-faxes",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FAXES/passport-discord-faxes.git"
   },
-  "homepage": "https://github.com/nicholastay/passport-discord#readme",
-  "dependencies": {
-    "passport-oauth2": "^1.5.0"
-  }
+  "version": "0.1.5"
 }
